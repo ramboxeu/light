@@ -1,0 +1,23 @@
+{
+  "name": "light",
+  "version": "0.0.1",
+  "description": "Use(less)ful presonal assitant",
+  "main": "light.js",
+  "scripts": {
+    "dev": "parcel watch src/light.js --target node",
+    "build": "parcel build src/light.js --target node --bundle-node-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramboxeu/light.git"
+  },
+  "author": "Rambox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramboxeu/light/issues"
+  },
+  "homepage": "https://github.com/ramboxeu/light#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
